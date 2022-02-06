@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Photoshop project</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="flexbox">
-        <img src="logoandtext.jpg" width="200px" alt="wood" />
 
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">EXPERTISE</a></li>
-          <li><a href="#">TEAMS</a></li>
-          <li><a href="#">WORKS</a></li>
-          <li><a href="#">PEOPLE SAY</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photoshop project</title>
+  <link rel="stylesheet" href="./reset.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div id="web-page">
+    <header>
+      <nav class="navi">
+        <div class="logo">
+          <img src="logoandtext.jpg" alt="logo tajam" />
+        </div>
+        <div class="links">
+          <ul class="head-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">EXPERTISE</a></li>
+            <li><a href="#">TEAMS</a></li>
+            <li><a href="#">WORKS</a></li>
+            <li><a href="#">PEOPLE SAY</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
       </nav>
       <div class="title-wrapper">
         <h1>We Are Awesome Creative Agency</h1>
@@ -33,75 +40,217 @@
           ipsum velit.
         </p>
 
-        <a href="#" class="button">LEARN MORE</a>
+        <a href="#" class="button-1">LEARN MORE</a>
       </div>
     </header>
+    <main>
+      <div class="row story">
+        <div class="row story-logo">
+          <img src="logo-big.jpg" class="tajam-logo" width="300" height="300" alt="tajam logo" />
+        </div>
+        <div class="row story-content">
+          <h2 class="our-story">OUR STORY</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est nulla
+            aliquam animi ratione? Ea, quos! Magni deleniti, cupiditate aspernatur
+            suscipit nobis eligendi quibusdam dignissimos eum, magnam <br /><br />
+            minima voluptates alias sequi facere odit quia repellendus vero nemo
+            nulla. Voluptatibus deserunt omnis, libero consequuntur corrupti
+            aliquid ipsum ullam architecto exercitationem, natus aut!
+          </p>
+          <a href="#" class="button-2">LEARN MORE</a>
+        </div>
+      </div>
+      <div class="video">
+        <a href="#"><img src="design play.jpg" class="play" /></a>
 
-    <div class="row story">
-      <div class="row story-logo">
-        <img
-          src="logo-big.jpg"
-          class="tajam-logo"
-          width="300"
-          height="300"
-          alt="tajam logo"
-        />
+        <h4 class="watch">WATCH OUR STORY</h4>
       </div>
-      <div class="row story-content">
-        <h2 class="our-story">OUR STORY</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est nulla
-          aliquam animi ratione? Ea, quos! Magni deleniti, cupiditate aspernatur
-          suscipit nobis eligendi quibusdam dignissimos eum, magnam <br /><br />
-          minima voluptates alias sequi facere odit quia repellendus vero nemo
-          nulla. Voluptatibus deserunt omnis, libero consequuntur corrupti
-          aliquid ipsum ullam architecto exercitationem, natus aut!
-        </p>
-        <a href="#" class="button-2">LEARN MORE</a>
-      </div>
-    </div>
-    <div class="video">
-      <a href="#"><img src="design play.jpg" class="play" /></a>
+      <!--Start Section Expertise 
+    
+<img src="bgk-middle.jpg" alt="test"/> -->
 
-      <h4>WATCH OUR STORY</h4>
-    </div>
+      <h2 class="head-expertise">EXPERTISE</h2>
+      <p class="head-p1-expertise">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+      <p class="head_p1_expertise_line">_______</p>
 
-    <div class="form-clients">
-      <div class="form">
-        <h2>GIVE US GOOD NEWS</h2>
-        <form>
-          <label for="name"></label>
-          <input type="text" id="name" placeholder="Name" /></br>
-          <label for="name"></label>
-          <input type="text" id="name" placeholder="Email" /></br>
-          <label for="name"></label>
-          <input type="text" id="name" placeholder="Subject" /></br>
-          <textarea
-            id="subject"
-            name="subject"
-            placeholder="Your massage"
-            style="height: 15rem"
-          ></textarea>
-          <a href="#" class="button-3">SUBMIT</a>
-        </form>
-      </div>
-      <div class="clients">
-        <h2>OUR HAPPY CLIENT</h2>
-        <div class="images">
-        <img src="Zara_Logo.jpg" alt="zara logo" width="150px"/>
-        <img src="Mango_logo.jpg" alt="mango logo" /></br>
-        <img src="Barneys_Logo.jpg" alt="barneys logo" />
-        <img src="Gucci_Logo.jpg" alt="gucci logo" /></br>
-        <img src="Cklein_logo.jpg" alt="calvin klein logo" />
-        <img src="NIKE_logo.jpg" alt="nike logo" /></br>
-        <img src="Converse_logo.jpg" alt="converse logo" />
-        <img src="Levi_s_logo.jpg" alt="levi_s logo" />
-      </div>
-      </div>
-    </div>
+      <section class="expertise top">
+        <div class="content1">
+          <img src="screen.jpg" alt="Sreen">
+          <h4>WEB DESIGN & DEVELOPMENT</h4>
+          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </div>
 
+        <div class="content2">
+          <img src="pen.jpg" alt="Pen">
+          <h4>BRANDING IDENTITY</h4>
+          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </div>
+
+        <div class="content3">
+          <img src="mobile.jpg" alt="Mobile">
+          <h4>MOBILE APP</h4>
+          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </div>
+      </section>
+
+      <section class="expertise">
+        <div class="content4">
+          <img src="graph.jpg" alt="Graph">
+          <h4>SEARCH ENGINE OPTIMIZATION</h4>
+          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </div>
+
+        <div class="content5">
+          <img src="gameboy.jpg" alt="Game Boy">
+          <h4>GAME DEVELOPMENT</h4>
+          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </div>
+
+        <div class="content6">
+          <img src="heart.jpg" alt="Heart">
+          <h4>MADE WITH LOVE</h4>
+          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </div>
+      </section>
+      <!-- End Section Expertise -->
+      <!-- Start Section Meet Our Team -->
+
+      <section class="meet-team">
+        <div>
+          <div class="meet-team-head-main">
+            <h2 class="mthm-h2">MEET OUR AMAZING TEAM</h2>
+            <p class="mthm-p1">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+            <p class="mthm-p2">_______</p>
+          </div>
+        </div>
+
+        <div class="meet-team-flexbox">
+          <div class="mtf-photo">
+            <img src="./rabf_team.png" width="220" height="229" alt="Photo">
+            <h4>SEMF UCUG</h4>
+            <p>CEO & FOUNDER</p>
+          </div>
+          <div class="mtf-photo">
+            <img src="./rabf_team.png" width="220" height="229" alt="Photo">
+            <h4>DIC ADALIN</h4>
+            <p>ENGINEERING</p>
+          </div>
+
+          <div class="mtf-photo">
+            <img src="./rabf_team.png" width="220" height="229" alt="Photo">
+            <h4>JENG KOL</h4>
+            <p>DESIGNER</p>
+          </div>
+
+          <div class="mtf-photo">
+            <img src="./rabf_team.png" width="220" height="229" alt="Photo">
+            <h4>PET ROMAK</h4>
+            <p>MARKETING</p>
+          </div>
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="meet-team-footer">
+          <p>Become part of our dream team, let's join us!</p>
+          <p class="foot-we-are-hiring">WE ARE HIRING</h5>
+        </div>
+      </section>
+      <!-- Start Section Meet Our Team -->
+
+      <div class="form-clients">
+        <div class="form">
+          <h2>GIVE US GOOD NEWS</h2>
+          <form class="label">
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="Name" />
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="Email" />
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="Subject" />
+            <textarea id="name" name="subject" placeholder="Your massage" style="height: 15rem"></textarea>
+            <a href="#" class="button-3">SUBMIT</a>
+          </form>
+        </div>
+
+        <div class="clients">
+          <h2>OUR HAPPY CLIENT</h2>
+          <div class="images">
+            <div class="cont-1">
+              <img src="Zara_Logo.jpg" alt="zara logo" width="150px" />
+            </div>
+            <div class="cont-1">
+              <img src="Mango_logo.jpg" alt="mango logo" />
+            </div>
+            <div class="cont-1">
+              <img src="Barneys_Logo.jpg" alt="barneys logo" />
+            </div>
+            <div class="cont-1">
+              <img src="Gucci_Logo.jpg" alt="gucci logo" />
+            </div>
+            <div class="cont-1">
+              <img src="Cklein_logo.jpg" alt="calvin klein logo" />
+            </div>
+            <div class="cont-1">
+              <img src="NIKE_logo.jpg" alt="nike logo" />
+            </div>
+            <div class="cont-1">
+              <img src="Converse_logo.jpg" alt="converse logo" />
+            </div>
+            <div class="cont-1">
+              <img src="Levi_s_logo.jpg" alt="levi_s logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer>
-      <img src="logo.jpg" />
+      <div class="ftr">
+        <div class="logo_text">
+          <img src="logoandtext.jpg" alt="logo tajam" width="170px" />
+          <p class="footer-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo eligendi voluptas enim
+            facere
+            illo voluptatibus ipsam ab vitae tempora, tempore laudantium porro, sed repellat? Id!</p>
+        </div>
+        <div class="middle">
+          <h5 class="studio">OUR STUDIO</h5>
+
+          <p class="address">
+            <img src="big104.jpg" alt="location logo" />
+            Ruko cucruk, JI. Radio luar dalem jos No.12-13, kalieres - Jakarta Barat 11480 - Indoneia
+            </br>
+            <!-- <div class="phone"> -->
+            <img src="phone351.jpg" alt="phone logo" />
+            (+62)21-2224-3333
+          </p>
+          <!-- </div> -->
+        </div>
+        <div class="stay">
+          <h5>STAY IN TOUCH</h5>
+          <div class="newsletter">
+            <form>
+              <label for="name"></label>
+              <input type="text" id="name" placeholder="Subscribe our newsletter" />
+              <button class="button">
+                <img src="paper122.jpg" width="35px">
+              </button>
+          </div>
+          </form>
+
+        </div>
+      </div>
+      <span class="copy">
+        <ul class="f-h5"> 
+        <li><a href="#">HELP</a></li>
+        <li><a href="#">TERMS&CONDITION</a></li>
+        <li><a href="#">PRIVACY</a></li>
+      </ul>
+        Copyright et 2015 - Tajem Creative
+      </span>
     </footer>
-  </body>
+  </div>
+</body>
+
 </html>
